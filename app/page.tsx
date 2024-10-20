@@ -10,6 +10,7 @@ export default function Home() {
         <li><Link href="/checkout">--Checkout--</Link></li>
         <li><Link href="/login">--Login--</Link></li>
         <li><Link href="/signup">--Register--</Link></li>
+        <li><Link href="/order">--Order--</Link></li>
       </ul>
     </div>
   );
