@@ -1,8 +1,13 @@
+import Link from 'next/link'
 import React from 'react'
 
 const products = () => {
   return (
-    <div>products</div>
+    <ul>
+        <li><Link href="/products/mobile">--mobile--</Link></li>
+        <li><Link href="/products/computer">--computer--</Link></li>
+        <li><Link href="/products/airpod">--airpod--</Link></li>
+    </ul>
   )
 }
 
